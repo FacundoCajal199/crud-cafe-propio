@@ -1,0 +1,21 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(36, 36, 36);
+}
+
+.mainSection{
+    flex-grow: 1;
+}
+
+.banner{
+    object-fit: cover;
+    height: 395px;
+    width: 100%;
+}
+.title{
+    font-size: 2.5rem;
+    font-weight: 900;
+
+}

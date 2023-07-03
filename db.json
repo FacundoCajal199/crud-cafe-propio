@@ -1,0 +1,33 @@
+{
+  "productos": [
+    {
+      "nombreProducto": "pan",
+      "precio": "500",
+      "imagen": "https://crehana-blog.imgix.net/media/filer_public/5a/26/5a26e08f-ebb1-4d2d-aeca-ee2702ae8f1e/nintendo-blogs.jpg?auto=format&q=50",
+      "categoria": "bebida fria",
+      "id": 2
+    },
+    {
+      "nombreProducto": "pancito negro",
+      "precio": "250",
+      "imagen": "https://www.comedera.com/wp-content/uploads/2022/03/bread-gfdbc855b1_1920.jpg",
+      "categoria": "salado",
+      "id": 3
+    },
+    {
+      "nombreProducto": "cafe",
+      "precio": "200",
+      "imagen": "https://th.bing.com/th?id=OIP.Tv45Yd7KLcm4BMgjTEWE1gHaFk&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+      "categoria": "bebida caliente",
+      "id": 4
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombreUsuario": "admin",
+      "email": "admin@rollingcode.com",
+      "password": "123456aA$"
+    }
+  ]
+}
