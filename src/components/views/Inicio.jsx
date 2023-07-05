@@ -13,9 +13,6 @@ const Inicio = () => {
         <hr />
         <Row>
             <CardProducto></CardProducto>
-            <CardProducto></CardProducto>
-            <CardProducto></CardProducto>
-            <CardProducto></CardProducto>
         </Row>
       </Container>
     </section>

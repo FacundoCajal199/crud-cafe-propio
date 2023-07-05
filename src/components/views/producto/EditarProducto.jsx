@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Form, Button } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { useParams } from "react-router-dom";
-import { obtenerUnProducto } from "../../helpers/queries";
+import { editarProducto, obtenerUnProducto } from "../../helpers/queries";
 
 const EditarProducto = () => {
  
@@ -21,22 +21,15 @@ const EditarProducto = () => {
       setValue('nombreProducto', respuesta.nombreProducto)
       setValue('precio', respuesta.precio)
       setValue('categoria', respuesta.categoria)
+      setValue('imagen', respuesta.imagen)
      
 
     })
   }, [])
 
   const onSubmit = (productoNuevo) => {
-    console.log(productoNuevo);
-    editarProducto(productoNuevo).then((respuesta)=>{
-      if(respuesta && respuesta.status === 201){
-        Swal.fire('Producto creado', `El producto ${productoNuevo.nombreProducto} fue creado correctamente`, 'success');
-        reset();
-      }else{
-        Swal.fire('Ocurrio un error', `El producto ${productoNuevo.nombreProducto} no pudo ser creado, intente en unos minutos`, 'error');
-      }
-    })
-
+   console.log(productoNuevo);
+editarProducto(productoNuevo,id);
   };
 
   return (

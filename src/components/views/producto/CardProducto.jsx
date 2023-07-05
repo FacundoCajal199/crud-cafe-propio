@@ -23,8 +23,7 @@ const CardProducto = () => {
             <Card.Img variant="top" src={producto.imagen} />
             <Card.Body>
               <Card.Title className="text-ligth fw-semibold h4 ">{producto.nombreProducto}</Card.Title>
-              <Card.Text className="text-danger fw-semibold h5 ">{producto.categoria}</Card.Text>
-              <Card.Text className="text-warning fw-semibold  h5">{producto.precio}</Card.Text>
+              <Card.Text className="  h6">{producto.precio}</Card.Text>
               <Link to={`/detalle/${producto.id}`} className="btn btn-warning">
                 Ver detalle
               </Link>

@@ -20,6 +20,13 @@
       "imagen": "https://th.bing.com/th?id=OIP.Tv45Yd7KLcm4BMgjTEWE1gHaFk&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
       "categoria": "bebida caliente",
       "id": 4
+    },
+    {
+      "nombreProducto": "tortilla",
+      "precio": "200",
+      "imagen": "https://th.bing.com/th/id/R.d567cb67939062591f7bb6d0d3d60395?rik=UN2BtvZD2j%2bJZw&riu=http%3a%2f%2fwpit.cachefly.net%2fchooseveg%2f2015%2f07%2fcovert..jpg&ehk=8WgkKysaiYxIGVorveB6E0dtTzwIVV%2bnDHYpYCxyhi0%3d&risl=&pid=ImgRaw&r=0",
+      "categoria": "bebida caliente",
+      "id": 5
     }
   ],
   "usuarios": [
