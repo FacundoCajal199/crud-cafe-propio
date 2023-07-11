@@ -9,7 +9,7 @@ const Inicio = () => {
         alt="fondo cafe"
       />
       <Container>
-        <h1 className="display-4 text-light">Nuestros Productos</h1>
+        <h1 className="display-4">Nuestros Productos</h1>
         <hr />
         <Row>
             <CardProducto></CardProducto>

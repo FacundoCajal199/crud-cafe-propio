@@ -1,10 +1,10 @@
 {
   "productos": [
     {
-      "nombreProducto": "pan",
-      "precio": "500",
+      "nombreProducto": "pancito",
+      "precio": "200",
       "imagen": "https://crehana-blog.imgix.net/media/filer_public/5a/26/5a26e08f-ebb1-4d2d-aeca-ee2702ae8f1e/nintendo-blogs.jpg?auto=format&q=50",
-      "categoria": "bebida fria",
+      "categoria": "dulce",
       "id": 2
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "nombreProducto": "tortilla",
-      "precio": "200",
+      "precio": "500",
       "imagen": "https://th.bing.com/th/id/R.d567cb67939062591f7bb6d0d3d60395?rik=UN2BtvZD2j%2bJZw&riu=http%3a%2f%2fwpit.cachefly.net%2fchooseveg%2f2015%2f07%2fcovert..jpg&ehk=8WgkKysaiYxIGVorveB6E0dtTzwIVV%2bnDHYpYCxyhi0%3d&risl=&pid=ImgRaw&r=0",
       "categoria": "bebida caliente",
       "id": 5

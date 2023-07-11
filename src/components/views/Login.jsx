@@ -15,7 +15,7 @@ const Login = ({setUsuarioLogueado}) => {
 const onSubmit = (usuario)=>{
   login(usuario).then((respuesta)=>{
     console.log(respuesta)
-    if(respuesta){
+    if(respuesta && respuesta.nombreUsuario ){
       //guardar mi usuario en session o localstorage.
       sessionStorage.setItem('usuario', JSON.stringify(respuesta));
       setUsuarioLogueado(respuesta);
@@ -24,7 +24,7 @@ const onSubmit = (usuario)=>{
       //mostrar un mensaje  de error
       Swal.fire(
         'Ocurrio un error',
-        'El email o usuario son erroneos',
+        'El email o password son erroneos',
         'error'
       )
     }

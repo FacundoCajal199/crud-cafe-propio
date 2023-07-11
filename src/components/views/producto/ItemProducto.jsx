@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const ItemProducto = ({ producto, setProductos }) => {
   const eliminarProducto = () => {
     //todo: agregar la consulta de sweetalert para preguntar si esta seguro que quiere borrar
-    borrarProducto(producto.id)
+    borrarProducto(producto._id)
     .then((respuesta) => {
       if (respuesta && respuesta.status === 200) {
         Swal.fire(
@@ -32,13 +32,13 @@ const ItemProducto = ({ producto, setProductos }) => {
 
   return (
     <tr>
-      <td>{producto.id}</td>
+      <td>{producto._id}</td>
       <td>{producto.nombreProducto}</td>
       <td>${producto.precio}</td>
       <td>{producto.imagen}</td>
       <td>{producto.categoria}</td>
       <td>
-        <Link className="btn btn-warning" to={'/administrador/editar-producto/'+producto.id}>Editar</Link>
+        <Link className="btn btn-warning" to={'/administrador/editar-producto/'+producto._id}>Editar</Link>
         <Button variant="danger" onClick={eliminarProducto}>
           Borrar
         </Button>
